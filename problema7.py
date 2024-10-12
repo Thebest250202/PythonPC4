@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 
 # Configuración de la conexión a MongoDB
-mongo_client = MongoClient('mongodb://localhost:27017/')  # Cambia la URI si es necesario
+mongo_client = MongoClient('mongodb://localhost:27017/')  
 mongo_db = mongo_client['tipo_cambio_db']
 mongo_collection = mongo_db['sunat_info']
 
